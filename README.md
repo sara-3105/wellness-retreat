@@ -41,7 +41,7 @@ To get a local copy up and running, follow these simple steps.
 1.  Clone the repository: 
 
 ```bash
-git clone https://github.com/sara-3105/wellness-retreat
+git clone https://github.com/sara-3105/wellness-retreat.git
 ```
 
 2.  Navigate to the project directory: 
