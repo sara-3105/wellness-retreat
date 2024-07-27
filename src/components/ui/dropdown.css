@@ -1,0 +1,111 @@
+.dropdown {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  font-family: Arial, sans-serif;
+}
+
+.dropdown-toggle {
+  width: 100%;
+  padding: 10px 15px;
+  background-color: #1b3252;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #1b3252;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.3s ease;
+}
+
+.dropdown-toggle:hover {
+  background-color: white;
+  color: #1b3252;
+}
+
+.dropdown-toggle:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(27, 50, 82, 0.25);
+}
+
+.dropdown-arrow {
+  width: 24px;
+  height: 24px;
+  transition: transform 0.2s ease-in-out;
+  fill: white; /* Make the arrow white */
+}
+
+.dropdown-toggle:hover .dropdown-arrow {
+  fill: #1b3252; /* Change arrow color on hover */
+}
+
+.dropdown-arrow.open {
+  transform: rotate(180deg);
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin-top: 5px;
+  background-color: #1b3252;
+  border: 1px solid #1b3252;
+  border-radius: 4px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+  z-index: 1000;
+}
+
+.dropdown-menu ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li button {
+  width: 100%;
+  padding: 10px 15px;
+  background: none;
+  border: none;
+  text-align: left;
+  cursor: pointer;
+  color: white;
+  transition: all 0.3s ease;
+}
+
+.dropdown-menu li button:hover {
+  background-color: white;
+  color: #1b3252;
+}
+
+@media screen and (max-width: 480px) {
+    .dropdown {
+      max-width: 100%;
+      margin: 1vw 0;
+    }
+  
+    .dropdown-toggle {
+      background-color: white;
+      color: #1b3252;
+      border-color: #ccc;
+    }
+  
+    .dropdown-arrow {
+      fill: #1b3252;
+    }
+  
+    .dropdown-menu {
+      background-color: white;
+      border-color: #ccc;
+    }
+  
+    .dropdown-menu li button {
+      color: #1b3252;
+    }
+  
+    .dropdown-menu li button:hover {
+      background-color: #f0f0f0;
+    }
+  }

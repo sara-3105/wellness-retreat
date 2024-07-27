@@ -1,0 +1,39 @@
+/* Base styles */
+.header {
+    width: 100%;
+    height: 60px; 
+    background-color: #1b3252;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+}
+
+.heading {
+    padding: 13px;
+    font-size: 24px; 
+    color: white; 
+    font-weight: 500;
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .header {
+        justify-content: center; /* Center the text on smaller screens */
+    }
+
+    .heading {
+        font-size: 25px; 
+        text-align: center; /* Center the text */
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        height: 80px; 
+    }
+
+    .heading {
+        font-size: 25px; 
+        font-weight: 500;
+    }
+}
