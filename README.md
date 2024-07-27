@@ -1,70 +1,87 @@
-# Getting Started with Create React App
+# 🌿 Wellness Retreat 🌿
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Welcome to Wellness Retreat ! This project is a responsive web page designed to offer a seamless experience for users looking to explore and book wellness retreats. The application is built using React and includes functionalities for filtering, searching, and paginating retreat listings.
 
-## Available Scripts
+## 📜 Table of Contents
 
-In the project directory, you can run:
+- [Features](#-features)
+- [Technologies](#-technologies)
+- [Getting Started](#-getting-started)
+- [Installation](#-installation)
+- [Usage](#-usage)
+- [API](#-api)
+- [Contributing](#-contributing)
+- [License](#-license)
+- [Contact](#-contact)
 
-### `npm start`
+## ✨ Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- 🌐  Responsive Design:  The application is optimized for all screen sizes.
+- 🔍  Search Functionality:  Users can search for retreats by name or keywords.
+- 🎯  Filtering:  Retreats can be filtered based on various criteria such as location, type, and availability.
+- 📑  Pagination:  Retreat listings are paginated for easier navigation.
+- 🔗  API Integration:  Data is fetched from APIs for dynamic and up-to-date information.
+- 🛠️  Mock Data:  Mock data is used to demonstrate the application's functionality.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Technologies
 
-### `npm test`
+-  React : A JavaScript library for building user interfaces.
+-  Axios : For making HTTP requests.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## 🚀 Getting Started
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To get a local copy up and running, follow these simple steps.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Prerequisites
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Node.js
+- npm (Node Package Manager)
 
-### `npm run eject`
+### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+1.  Clone the repository: 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+git clone https://github.com/sara-3105/wellness-retreat
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+2.  Navigate to the project directory: 
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+cd shoonya-wellness-retreat
+```
 
-## Learn More
+3.  Install the dependencies: 
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm install
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🛠️ Usage
 
-### Code Splitting
+1.  Start the development server: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```bash
+npm start
+```
 
-### Analyzing the Bundle Size
+2.  Open your browser and visit: 
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```
+http://localhost:3000
+```
 
-### Making a Progressive Web App
+## 📡 API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+The project uses a mock API to fetch retreat data. You can customize the API endpoint in the `src//pages/homepage.js` directory.
 
-### Advanced Configuration
+-  GET /retreats : Fetch a list of all retreats.
+-  GET /retreats/:id : Fetch details of a specific retreat.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
 
-### Deployment
+## 📞 Contact
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+Your Name - [sarapatil.dev@gmail.com](mailto:sarapatil.dev@gmail.com)
 
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Project Link: [https://github.com/sara-3105/wellness-retreat](https://github.com/sara-3105/wellness-retreat)
