@@ -10,8 +10,6 @@ Welcome to Wellness Retreat ! This project is a responsive web page designed to 
 - [Installation](#-installation)
 - [Usage](#-usage)
 - [API](#-api)
-- [Contributing](#-contributing)
-- [License](#-license)
 - [Contact](#-contact)
 
 ## ✨ Features
