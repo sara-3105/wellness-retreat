@@ -1,10 +1,7 @@
-.cards_section{
+.cards_section {
     margin: 2vw;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-between;
+    gap: 3vw;
 }
-
-
-  
