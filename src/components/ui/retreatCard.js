@@ -11,7 +11,7 @@ const RetreatCard = ({ title, description, date, duration, location, price, imag
     <p className='retreatDescription'>{description}</p>
     <p className='retreatDate'>Date : {formattedDateRange}</p>
     <p className='retreatLocation'>Location : {location}</p>
-    <p className='retreatPrice'>Price : {price}</p>
+    <p className='retreatPrice'>Price : ${price}</p>
     </div>
   )
 }
